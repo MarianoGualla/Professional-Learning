@@ -8,7 +8,7 @@ Trabajo Final Integrador – Programación I – UTN
 Gestion_de_datos/
 │
 ├── Documentacion
-│ 	├── Informe_trabajo_integrador.pdf
+│ 	└── Informe_trabajo_integrador.pdf
 │ 
 ├── Programa y archivo CSV
 │ 	├── TPI-Gestion_Paises.py
