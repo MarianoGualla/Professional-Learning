@@ -9,13 +9,19 @@
 
 import csv
 import matplotlib.pyplot as plt
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+ruta = BASE_DIR / "datos" / "ventas.csv"
+
+salida = BASE_DIR / "resultados" / "grafico_ventas.png"
 
 # ----------------------------------------------------------------
 # CONFIGURACIÓN GENERAL
 # Ruta relativa al dataset — garantiza reproducibilidad en Colab
 # sin depender de rutas absolutas del sistema de archivos local
 # ----------------------------------------------------------------
-ruta = "datos/ventas.csv"
 
 # ----------------------------------------------------------------
 # Importación del dataset y verificación de estructura
@@ -99,7 +105,7 @@ plt.xticks(fechas[::30], rotation=45)
 
 plt.tight_layout()
 
-plt.savefig("resultados/grafico_ventas.png")
+plt.savefig(salida)
 
 plt.show()
 
