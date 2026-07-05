@@ -35,7 +35,7 @@ Módulos: "csv", "os" (ambos incluidos en la biblioteca estándar, no requieren 
 ## Cómo ejecutar
 Clonar o descargar el repositorio:
 
-https://github.com/OzGualla/TPI-Procesos-y-Maquina-de-estado
+https://github.com/MarianoGualla/Professional-Learning/tree/main/university/UTN/Business%20organization/Procesos_y_maquina_de_estado
 
 Verificar que "productos.csv" y "pedidos_registrados.csv" esté en el mismo directorio que el script.
 Ejecutar el chatbot:
