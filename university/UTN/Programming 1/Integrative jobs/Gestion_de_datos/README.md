@@ -3,10 +3,20 @@
 Trabajo Final Integrador – Programación I – UTN
 
 ## Estructura del proyecto:
-- gestion_datos_paises.py
-- informacion_paises.csv
-- README.md
-- Informe_trabajo_integrador.pdf
+
+```text
+Gestion_de_datos/
+│
+├── Documentacion
+│ 	├── Informe_trabajo_integrador.pdf
+│ 
+├── Programa y archivo CSV
+│ 	├── TPI-Gestion_Paises.py
+│ 	└── informacion_paises.csv
+│             
+├── README.md
+└── .gitignore
+```
 
 ## Descripción:
 
